@@ -1,0 +1,87 @@
+body{
+ background-color: rgb(19, 19, 19);   
+}
+.navbar{
+    top:0;
+    margin-top: -10px;
+    position:fixed;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    
+}
+.nav-items{
+    margin-left: 35%;
+    margin-top:5px ;
+    margin: auto;
+}
+.nav-link{
+    color: rgba(255, 254, 254, 0.582);
+    font-size: 20px;
+    
+}
+.nav-link:hover{
+    color: white;
+    font-size:22px;
+}
+.home-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:"Inter", sans-serif;
+    margin-top: 15%;
+}
+.text-one{
+    font-size: 64px;
+    margin-bottom: -25px;
+    margin-left:-730px;
+    font-weight: 200;
+}
+.text-two{
+    margin-top: -70px;
+        font-size: 200px;
+        font-weight: bold;
+        margin-bottom:-90px;
+}
+.text-three{
+    margin-left: 270px;
+    font-size: 64px;
+    font-weight: 300;
+    margin-top: -5px;
+}
+.text-four{
+    margin-left: 460px;
+    font-size: 40px;
+    font-weight: 250;
+    margin-top: -30px;
+}
+.home{
+    height: 500px;
+}
+.passion-section{
+    height: 700px;
+}
+.passion-desc{
+    display: block;
+    justify-content: end;
+}
+.passion-title {
+    font-family: "Dorsa", sans-serif;
+    font-size: 130px;
+    width: 25%;
+    line-height: 100%;
+    text-align: end;
+    margin-left: 73%;
+    color: white;
+}
+.passion-desc-body{
+    width: 70%;
+    text-align: right;
+    margin-left: 28%;
+    font-family:"Inter", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+
+}
