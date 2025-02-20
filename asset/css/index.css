@@ -14,6 +14,8 @@ body{
     margin-top:5px ;
     margin: auto;
     margin-top: 15px;
+    font-family: "Inter",sans-serif;
+    font-weight: 300;
 }
 .nav-link{
     color: rgba(255, 254, 254, 0.77);
@@ -31,13 +33,14 @@ body{
   }
 
 .home-container{
-     background-image: url(../img/new-image-home.JPG);
+     background-image: url(../img/home.jpeg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position-x: center;
+    background-size: 155%;
      height: 750px;
      width: 900px;
      margin: auto;
-     background-size: cover
+    
 }
 .home-text{
     color: white;
@@ -48,35 +51,36 @@ body{
     
 }
 .text-one{
-    margin-top: 30%;
+    margin-top: 35%;
     font-size: 64px;
-    margin-bottom: -25px;
-    margin-left:-730px;
+    margin-bottom: 0px;
+    margin-left:-760px;
     font-weight: 200;
 }
 .text-two{
     margin-top: -70px;
         font-size: 200px;
-        font-weight: bold;
+        font-weight: 900;
         margin-bottom:-90px;
 }
 .text-three{
-    margin-left: 270px;
+    margin-left: 36%;
     font-size: 64px;
     font-weight: 300;
-    margin-top: -5px;
 }
 .text-four{
-    margin-left: 460px;
+
+    margin-left: 58%; 
     font-size: 40px;
     font-weight: 250;
     margin-top: -30px;
 }
 .passion{
-    background-image: url(../img/new-passion-back.JPG);
+    background-image: url(../img/image.png);
     background-repeat: no-repeat;
     background-position: left;
-    height: 700px;
+    height: 900px;
+    background-size: 800px;
 
 }
 .passion-section{
