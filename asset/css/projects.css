@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(0, 0, 0);   
+}
+.project-content{
+    margin: auto;
+}
+.project-topic{
+    font-size: 200px;
+    font-family: "Dorsa",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top:50px;
+   
+}
+.pro-list{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pro-list a{
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+        font-weight: 200;
+        font-family: "inter",sans-serif;
+        position: relative;
+        --thickness: .1em;
+        --strike: 0;
+        background: linear-gradient(90deg, transparent, currentColor 0) no-repeat 
+                     center / calc(var(--strike) * 100%) var(--thickness);
+        transition: background-size .2s ease-in;
+}
+.pro-list a:hover{
+    --strike: 1; 
+    background-position-x: center;
+ 
+}
+.pro-list li{
+     margin-bottom: 20px;
+}
