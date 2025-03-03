@@ -18,13 +18,16 @@
     color: rgba(255, 254, 254, 0.77);
     font-size: 20px;
    margin-right: 60px;
-   
+   --thickness: 1px;
+   --strike: 0;
+   background: linear-gradient(90deg, transparent, currentColor 0) no-repeat 
+               center / calc(var(--strike) * 70%) var(--thickness);
+   transition: background-size .5s ease;
 }
 
 .nav-link:hover{
     color: white;
     font-size:21px;
+    --strike: 1; 
+    background-position-x: center;
 }
-.nav-link:focus{
-    color:rgb(255, 255, 255);
-  }

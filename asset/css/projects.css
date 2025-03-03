@@ -27,7 +27,7 @@ body{
         font-weight: 200;
         font-family: "inter",sans-serif;
         position: relative;
-        --thickness: .1em;
+        --thickness: 1.5px;
         --strike: 0;
         background: linear-gradient(90deg, transparent, currentColor 0) no-repeat 
                      center / calc(var(--strike) * 100%) var(--thickness);

@@ -21,17 +21,19 @@
     <link rel="stylesheet" href="../asset/css/navbar.css" />
   </head>
   <body>
-    <div id="navbar" class="navbar nav">
+    <div id="navbar" class="navbar nav"  style="z-index: 1;">
       <a class="nav-link" href="#" style="font-size: 20px; margin-top: -5px"
         >Logo</a
       >
 
-      <div class="nav-items nav">
+      <div class="nav-items nav"  >
         <p class="nav-item">
           <a class="nav-link" href="../index.html">Start</a>
         </p>
         <p class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./about.html" style="--strike: 1; 
+          background-position-x: center;
+          color: white;">About</a>
         </p>
         <p class="nav-item">
           <a class="nav-link" href="./projects.html">Projects</a>
@@ -41,8 +43,11 @@
         </p>
       </div>
     </div>
-    <div id="about-content">
-      <div class="about-text">
+    <div id="about-content" data-aos="fade-left"
+    data-aos-duration="1000"
+    style="z-index: 0;">
+      <div class="about-text" data-aos="fade-right"
+      data-aos-duration="1000">
         <div class="about-topic">
           <p>ABOUT</p>
         </div>
@@ -66,23 +71,33 @@
           <p>SKILLS</p>
         </div>
         <div class="skill-list">
-          <div class="skill-item">
+          <div class="skill-item" data-aos="flip-left"
+          data-aos-duration="1000" >
             <img src="../asset/img/photoshop.png" alt="" />
           </div>
-          <div class="skill-item">
+          <div class="skill-item" data-aos="flip-left"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+           >
             <img src="../asset/img/illustrator.png" alt="" />
           </div>
-          <div class="skill-item">
+          <div class="skill-item"data-aos="flip-left"
+          data-aos-duration="1000"
+          data-aos-delay="200" >
             <img src="../asset/img/premier-pro.png" alt="" />
           </div>
-          <div class="skill-item">
+          <div class="skill-item" data-aos="flip-left"
+          data-aos-duration="1000"
+          data-aos-delay="300" >
             <img
               src="../asset/img/maya.png"
               alt=""
               style="height: 90px; width: 90px; margin-top: 0"
             />
           </div>
-          <div class="skill-item" style="margin-left: 100px">
+          <div class="skill-item" style="margin-left: 100px" data-aos="flip-left"
+          data-aos-duration="1000"
+          data-aos-delay="400" >
             <img src="../asset/img/pdf.png" alt="" />
             <p
               style="
@@ -105,6 +120,16 @@
         PROJECTS
       </a>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+     AOS.init({
+         duration: 800,  // Animation duration in milliseconds
+         easing: "ease-in-out",  // Animation easing
+         once: false,  // Animation happens every time it scrolls into view
+     });
+   });
+   </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

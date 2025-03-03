@@ -61,7 +61,7 @@ display: flex;
     color: white;
     height: auto;
     width: auto;
-    --thickness: 20px;
+    --thickness: 10px;
     --strike: 0;
     background: linear-gradient(90deg, transparent, currentColor 0) no-repeat 
                 center / calc(var(--strike) * 100%) var(--thickness);
