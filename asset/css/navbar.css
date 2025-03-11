@@ -25,7 +25,7 @@
    transition: background-size .5s ease;
 }
 
-.nav-link:hover{
+.nav-item .nav-link:hover{
     color: white;
     font-size:21px;
     --strike: 1; 

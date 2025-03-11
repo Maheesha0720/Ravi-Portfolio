@@ -32,9 +32,7 @@
                 <a class="nav-link" href="./projects.html">Projects</a>
               </p>
               <p class="nav-item"  >
-                <a class="nav-link " href="./contact.html" style="--strike: 1; 
-                background-position-x: center;
-                color: white;">Contact</a>
+                <a class="nav-link " href="./contact.html" >Contact</a>
               </p>
         </div>
     </div>
@@ -45,25 +43,59 @@
           <p class="con-topic-text-1">CON</p>
           <p class="con-topic-text-2">TACT</p>
         </div>
-        <div class="contact-includs">
+        <form class="contact-includs" id="contact-form">
           <div class="con-info-part">
             <label for="Name">Your Name</label><br>
-            <input type="text" name="" id="con-text">
+            <input type="text" id="name" class="con-text" required>
           </div>
           <div class="con-info-part">
             <label for="email">Your e-mail address </label>   <br> 
-            <input type="text" name="" id="con-text">
+            <input type="email" id="email" class="con-text" required>
           </div>
           <div class="con-info-part">
             <label for="message">Type your message here... </label><br>
-            <textarea name="" id="msg-text" rows="5"></textarea>
+            <textarea id="message" class="msg-text" rows="5" required></textarea>
           </div>
-          <button type="button" class="send-button">Send your message</button>
-      </div>
-      </div>
-      <div>
+          <button type="submit" id="send-button" class="send-button">Send your message</button>
+        </form>
+      <p id="status" style="color: aliceblue;"></p>
 
       </div>
+      <div class="footer">
+        <div class="footer-part01">
+          <div class="footer-item">
+            <hr>
+            <p class="item-top">email</p>
+            <p class="item-base">ravinduwickramasinghe20@gmail.com</p>
+          </div>
+          <div class="footer-item">
+            <hr>
+            <p class="item-top">phone number</p>
+            <p class="item-base">+94 72 155 9240</p>
+          </div>
+          <div class="footer-item">
+            <hr>
+            <p class="item-top">page</p>
+            <p class="item-base">PIXEL PALETTE</p>
+          </div>
+        </div>
+        <div class="footer-part02">
+          <p> Follow me</p>
+          <div class="icon-list">
+            <div class="icon"><img id="pp" src="../asset/img/pixelp.png" alt=""></div>
+            <div class="icon" ><img id="f" src="../asset/img/facebook.png" alt=""></div>
+            <div class="icon"><img id="ins" src="../asset/img/inster.png" alt=""></div>
+            <div class="icon"><img id="in"src="../asset/img/in.png" alt=""></div>
+            <div class="icon"><img id="be" src="../asset/img/Be.png" alt=""></div>
+            <div class="icon"><img id="p" src="../asset/img/p.png" alt=""></div>
+          </div>
+          
+        </div>
+      </div>
+        
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="../script.js"></script>
+
 </body>
 </html>
