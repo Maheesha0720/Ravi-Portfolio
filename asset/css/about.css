@@ -44,6 +44,7 @@ display: flex;
 }
 .skill-item img:hover{
     transform: scale(1.15);
+    transition-duration: 200ms;
 }
 .projects{
     margin-top: 50px;
