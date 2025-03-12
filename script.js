@@ -18,10 +18,9 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     emailjs.send("service_heo39nm", "template_wszilh8", templateParams)
         .then(function (response) {
             console.log("SUCCESS!", response.status, response.text);
-            document.getElementById("status").innerHTML = "Message sent successfully!";
+            alert("message send successfully...");
         }, function (error) {
             console.log("FAILED...", error);
-            document.getElementById("status").innerHTML = "Failed to send message. Try again!";
         });
 
     document.getElementById("contact-form").reset();

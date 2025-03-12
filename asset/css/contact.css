@@ -112,7 +112,10 @@ hr{
    justify-content: center;
    margin-bottom: 50px;
 }
-
+.icon:hover{
+    transform: scale(1.155);
+    transition-duration: 200ms;
+}
 #pp{
     height: 60px;
     width: 60px;
