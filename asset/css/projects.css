@@ -21,6 +21,8 @@ body{
 }
 
 .pro-list a{
+    padding-left: 5px;
+    padding-right: 5px;
         text-decoration: none;
         color: white;
         font-size: 32px;
@@ -30,12 +32,12 @@ body{
         --thickness: 1.5px;
         --strike: 0;
         background: linear-gradient(90deg, transparent, currentColor 0) no-repeat 
-                     center / calc(var(--strike) * 100%) var(--thickness);
-        transition: background-size .2s ease-in;
+                     right / calc(var(--strike) * 100%) var(--thickness);
+        transition: background-size .4s ease-in-out;
 }
 .pro-list a:hover{
     --strike: 1; 
-    background-position-x: center;
+    background-position-x: left;
  
 }
 .pro-list li{
