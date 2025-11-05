@@ -1,5 +1,6 @@
 body{
- background-color: rgb(0, 0, 0);   
+ background-color: rgb(0, 0, 0);
+ overflow-x: hidden;
 }
 .home-container{
      background-image: url(../img/home.jpeg);
@@ -9,6 +10,7 @@ body{
      height: 750px;
      width: 900px;
      margin: auto;
+     background-color:rgb(0, 0, 0) ;
     
 }
 .home-text{
@@ -49,7 +51,7 @@ body{
     background-position: left;
     height: 600px;
     background-size: 800px;
-
+    
 }
 .passion-section{
     height: 700px;
@@ -79,4 +81,34 @@ body{
     font-size: 30px;
     color: white;
 
+}
+.background-text{
+    
+    position: absolute;
+    font-size:450px;
+    font-family: 'Dorsa',sans-serif;
+    bottom: -30%;
+    left: 55%;
+    transform: rotate(300deg);
+    -webkit-transform: rotate(26deg);
+    color: #76767600;
+    text-align: left;
+    -webkit-text-stroke: 1px #26EDFB80;
+    letter-spacing: 20px;
+    line-height: 0%;
+}
+.background-text1{
+    
+    position: absolute;
+    font-size:480px;
+    font-family: 'Dorsa',sans-serif;
+    bottom: -100%;
+    left: 50%;
+    transform: rotate(300deg);
+    -webkit-transform: rotate(26deg);
+    color: #76767600;
+    text-align: left;
+    -webkit-text-stroke: 1px #26EDFB80;
+    letter-spacing: 20px;
+    line-height: 0%;
 }
