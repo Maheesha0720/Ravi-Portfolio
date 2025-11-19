@@ -1,0 +1,70 @@
+.masonry-grid {
+  column-count: 3;
+  column-gap: 1.6rem;
+  padding: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.project-card {
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  break-inside: avoid;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+}
+
+.project-card p {
+  padding: 0.75rem;
+  font-size: 0.95rem;
+}
+.project-part{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.designs{
+    text-align: center;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+.designs {
+  transition: transform 700ms ease-in-out;
+}
+
+.designs:hover {
+  transform: scale(1.25);
+}
+.designs .designs-text{
+    text-decoration: none;  
+    font-size: 400px;
+    font-weight: 400;
+    font-family: "Dorsa",sans-serif;
+    color: white;
+    height: auto;
+}
+
+.containerbackground3D {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100vw;
+  text-align: center;
+  font-size: 600px;
+  font-family: 'Dorsa', sans-serif;
+  z-index: -1;
+  color: #76767600;
+  line-height: 0.75;
+  -webkit-text-stroke: 1px #26EDFB80;
+  word-break: break-word;
+  white-space: normal;
+  pointer-events: none;
+}
+
