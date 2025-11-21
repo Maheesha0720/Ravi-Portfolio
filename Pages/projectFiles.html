@@ -18,18 +18,32 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Dorsa&display=swap");
     </style>
-    <link rel="stylesheet" href="../asset/css/about.css" />
     <link rel="stylesheet" href="../asset/css/navbar.css" />
   </head>
   <body style="background-color: black;">
-      <script>
-         fetch("./components/header.html")
-          .then((res) => res.text())
-          .then((data) => {
-            document.getElementById("header").innerHTML = data;
-          });
-      </script>
-      <div id="header"></div>
+      <div id="navbar" class="navbar nav " style="z-index: 1;">
+  
+    <a class="nav-link  " href="../index.html">
+      <img src="../asset/img/logo(p.p).jpg" alt="logo" height="60" style="margin: 0px 5px 5px 5px; ">
+    </a>
+    <div class="nav-items nav" >
+        <p class="nav-item">
+          <a class="nav-link "  href="../index.html" >Start</a>
+        </p>
+        <p class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </p>
+        <p class="nav-item">
+          <a class="nav-link" href="./projects.html" 
+          style=" --strike: 1; 
+          background-position-x: center;">Projects</a>
+        </p>
+        <p class="nav-item"  >
+          <a class="nav-link " href="./contact.html">Contact</a>
+        </p>
+    </div>
+</div>
+      <div id="header" ></div>
       <div class="project-part">
         <div class="containerbackground3D" style="margin-top: 75; top: 55%;">3D DESIGNS</div>
         <div class="designs">
@@ -43,12 +57,7 @@
       </main>
       <script src="../projectFiles.js"></script>
       <script>
-        // Load header
-        // fetch("./components/header.html")
-        //   .then((res) => res.text())
-        //   .then((data) => {
-        //     document.getElementById("header").innerHTML = data;
-        //   });
+        
 
         document.addEventListener("DOMContentLoaded", function () {
           AOS.init({
