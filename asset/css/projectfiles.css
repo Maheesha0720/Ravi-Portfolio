@@ -1,3 +1,6 @@
+body{
+background-color: black;
+}
 .masonry-grid {
   column-count: 3;
   column-gap: 1.6rem;
