@@ -21,8 +21,14 @@
     <link rel="stylesheet" href="../asset/css/about.css" />
     <link rel="stylesheet" href="../asset/css/navbar.css" />
   </head>
-  <body>
-    <body>
+  <body style="background-color: black;">
+      <script>
+         fetch("./components/header.html")
+          .then((res) => res.text())
+          .then((data) => {
+            document.getElementById("header").innerHTML = data;
+          });
+      </script>
       <div id="header"></div>
       <div class="project-part">
         <div class="containerbackground3D">3D DESIGNS</div>
@@ -38,11 +44,11 @@
       <script src="../projectFiles.js"></script>
       <script>
         // Load header
-        fetch("./components/header.html")
-          .then((res) => res.text())
-          .then((data) => {
-            document.getElementById("header").innerHTML = data;
-          });
+        // fetch("./components/header.html")
+        //   .then((res) => res.text())
+        //   .then((data) => {
+        //     document.getElementById("header").innerHTML = data;
+        //   });
 
         document.addEventListener("DOMContentLoaded", function () {
           AOS.init({
@@ -76,6 +82,5 @@
       </script>
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    </body>
   </body>
 </html>
